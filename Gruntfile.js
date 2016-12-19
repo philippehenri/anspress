@@ -96,6 +96,7 @@
 				my_target: {
 					files: {
 						'assets/js/min/question.min.js': ['assets/js/question.js'],
+						'assets/js/min/list.min.js': ['assets/js/list.js'],
 						'assets/js/min/common.min.js': ['assets/js/common.js'],
 						'assets/js/min/upload.min.js': ['assets/js/upload.js'],
 						'assets/js/min/ap-admin.min.js': ['assets/js/ap-admin.js'],
