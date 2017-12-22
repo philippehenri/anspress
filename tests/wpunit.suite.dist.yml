@@ -9,7 +9,7 @@ modules:
         - \Helper\Wpunit
     config:
         WPLoader:
-            wpRootFolder: "D:/xampp2/htdocs/aptest"
+            wpRootFolder: "/home/travis/build/anspress/anspress/www"
             dbName: "apwploader"
             dbHost: "localhost"
             dbUser: "root"

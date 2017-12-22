@@ -18,12 +18,12 @@ modules:
             dump: 'tests/_data/dump.sql'
             populate: true
             cleanup: true
-            url: 'http://anspress.local'
+            url: 'http://aptest.local'
             urlReplacement: true
             tablePrefix: 'wp_'
         WordPress:
             depends: WPDb
-            wpRootFolder: 'D:/xampp2/htdocs/anspress'
+            wpRootFolder: '/home/travis/build/anspress/anspress/www'
             adminUsername: 'admin'
             adminPassword: 'admin'
             adminPath: '/wp-admin'
