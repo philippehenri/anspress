@@ -73,6 +73,8 @@ class AnsPress_Tag {
 		$question_tag = get_queried_object();
 
 		$question_args = array(
+                        'ap_current_user_ignore' =>  true, // needed or clicking on a tag will display TAG related questions but ALSO all current user questions
+			
 			'paged'      => max( 1, get_query_var( 'ap_paged' ) ),
 			'tax_query'  => array(
 				array(
