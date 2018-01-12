@@ -85,6 +85,9 @@ class AnsPress_Category {
 	 */
 	public static function category_page() {
 		$question_args = array(
+			                                     
+                        'ap_current_user_ignore' =>  true, 
+
 			'tax_query' => array(
 				array(
 					'taxonomy' => 'question_category',
